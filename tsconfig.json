@@ -3,6 +3,7 @@
     "outDir": "dist",            // Répertoire de sortie pour les fichiers générés par le compilateur.
     "target": "ES2020",          // Version d'ECMAScript que le compilateur cible.
     "noEmitOnError": true,       // N'émet pas de fichiers en cas d'erreurs de compilation.
+    "strict": true               // Active le mode strict pour des vérifications plus rigoureuses.
   },
   "files": [
     "src/app.ts"                 // Fichier(s) à inclure dans la compilation.
